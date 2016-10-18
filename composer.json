@@ -4,7 +4,7 @@
     "description": "A wrapper for using DomPDF inside Symfony 2",
     "keywords": ["symfony", "development", "bundle"],
     "type": "symfony-bundle",
-    "license": "All Rights Reserved",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Christian Vermeulen",
@@ -21,8 +21,8 @@
     ],
     "require": {
         "php": ">=5.3",
-        "symfony/framework-bundle": "2.*",
-        "symfony/symfony": "2.*"
+        "symfony/framework-bundle": "3.*",
+        "symfony/symfony": "3.*"
     },
     "autoload":     {
         "psr-0": { "Slik\\DompdfBundle": "" }
